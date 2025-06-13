@@ -1,0 +1,1 @@
+Este es mi segunda nota para practicar Git
