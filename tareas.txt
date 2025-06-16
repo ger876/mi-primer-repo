@@ -1,0 +1,5 @@
+1.Aprender que e Git y para que sirve
+2.Hacer commit correctamente
+3.Subir archivos a Github
+4.Crear nuevas ramas
+5.Practicar todos los dias
