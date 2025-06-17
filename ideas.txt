@@ -1,3 +1,5 @@
 1.Crear una app para organizar tareas
 2. Hacer una página para practicar HTML
 3. Crear un blog personal
+4. Hacer una app para tomar notas
+5. Aplicación de recetas saludables
