@@ -1,0 +1,21 @@
+name: Verificar Frase en proyecto.txt
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  verificar-frase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Verificar contenido
+        run: |
+          if grep -q "Versión combinada" proyecto.txt; then
+            echo "✅ La frase está presente"
+          else
+            echo "❌ ERROR: La frase no se encontró"
+            exit 1
+          fi
