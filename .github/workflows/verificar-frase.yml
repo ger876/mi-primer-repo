@@ -14,8 +14,8 @@ jobs:
       - name: Verificar contenido
         run: |
           if grep -q "Versión combinada" proyecto.txt; then
-            echo "✅ La frase está presente"
+            echo "La frase está presente"
           else
-            echo "❌ ERROR: La frase no se encontró"
+            echo "ERROR: La frase no se encontró"
             exit 1
           fi
